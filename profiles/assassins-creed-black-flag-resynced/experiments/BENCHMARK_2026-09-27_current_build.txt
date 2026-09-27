@@ -1,0 +1,26 @@
+﻿Current build snapshot before FG test
+Time: 2026-09-27 19:04 +03
+Active config: OptiScaler.ini
+Snapshot: 09_current_before_fg_2026-09-27_1904.ini
+SHA256: CEB913B1E559307BBCA8D29ED725335CDAB9ACDBC2648CD8DE08C050B6DC9BEF
+
+Profile: 900-tier / Interleave 2 / Fast OFF / Edit accumulation / TierSnap
+
+Measured, same area, FG OFF:
+Render ON: 47 FPS; 99% 38 FPS; frametime 21.28 ms
+Render OFF: 69 FPS; 99% 51 FPS; frametime 14.49 ms
+
+Reference previous stock-like run:
+Render OFF: 69 FPS; 99% 50 FPS
+
+Original stock control (01_daniel_current.ini):
+Original Stock NR, FG OFF: 33 FPS; 99% 25 FPS; frametime 30.30 ms
+Original Stock NR, FG ON: 69 FPS; 99% 46 FPS; frametime 14.49 ms
+
+Optimized build reference:
+Optimized NR, FG OFF: 47 FPS; 99% 38 FPS; frametime 21.28 ms
+Optimized NR, FG ON: 88 FPS; 99% 76 FPS; frametime 11.36 ms
+
+Render OFF reference:
+FG OFF: 69 FPS; 99% 51 FPS; frametime 14.49 ms
+FG ON: 124 FPS; 99% 117 FPS; frametime 8.06 ms

@@ -60,6 +60,17 @@ In our test setup, frame generation felt substantially more responsive than play
 In some lighting conditions, Neural Rendering can increase local contrast, facial definition and fine texture enough that the result may initially resemble strong sharpening or an aggressive ReShade-style post-process. The effect is not simply a post-process filter, but the visual impression can sometimes be similar.
 
 The result is also **subjective**. Some users may prefer the stronger facial definition and detail produced by NR, while others may prefer the softer and more natural-looking original image. This profile should be treated as a tested balance of image quality and performance, not as an objectively better look for everyone.
+## Additional test material
+
+This repository also keeps selected experiment history and one game-to-game comparison so the tuning process can be reproduced instead of only showing the final result.
+
+- Black Flag experiment history: `profiles/assassins-creed-black-flag-resynced/experiments/`
+- Kingdom Come: Deliverance II comparison: `comparisons/kingdom-come-deliverance-2/`
+
+The KCD2 material was also tested on the **RX 9070 non-XT**. It includes OptiScaler snapshots, the standalone DLSS-NR-on-AMD 0.4.1 reference config and a confirmed NR OFF / NR ON screenshot pair.
+
+Image-quality comments throughout the repository are subjective observations from the captured scenes, not universal rankings. Different viewers, displays and scenes can produce a different preference.
+
 ## Installation
 
 1. Install the current AMDNR release from the original AMDNR repository.
