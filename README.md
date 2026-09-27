@@ -27,6 +27,12 @@ Profile path:
 
 `profiles/assassins-creed-black-flag-resynced/OptiScaler.ini`
 
+## Scope
+
+This profile was tuned and validated specifically in **Assassin's Creed Black Flag Resynced** on an RX 9070. It is **not a universal RX 9070 preset for every game**.
+
+For other games, use it only as a starting point. Different titles can need different NR resolution, interleave, edit/detail, colour and temporal settings.
+
 ## Why this profile exists
 
 The goal was to keep the stronger facial reconstruction and image detail of Neural Rendering while avoiding the overly dry / grainy micro-detail that appeared on faces in shadow with more aggressive settings.
@@ -47,7 +53,7 @@ Same general test area, scene-dependent:
 - Tuned lmxxf NR profile: about 44-48 FPS
 - Tuned profile with frame generation enabled: roughly 70-80 FPS in the tested area
 
-Frame generation felt substantially more responsive than playing at the 44-48 FPS base rate. Results will vary by scene, driver, game build, CPU and AMDNR version.
+In our test setup, frame generation felt substantially more responsive than playing at the 44-48 FPS base rate. This is a subjective gameplay observation, not a guarantee of lower measured input latency. Latency and frame pacing depend on the game, frame-generation implementation, driver, CPU and other settings.
 
 ## Installation
 
@@ -67,7 +73,7 @@ Restore your backed-up `OptiScaler.ini`, or use AMDNR's own default/profile rese
 
 ## Notes
 
-This is a hardware/game-specific tuning profile, not a universal preset. It was tuned visually with repeated comparisons of faces under sun, partial shadow and deep shadow, while also checking frame rate and frame-time behavior.
+This is a hardware/game-specific tuning profile. It was tuned visually with repeated comparisons of faces under sun, partial shadow and deep shadow, while also checking frame rate and frame-time behavior.
 
 The profile is intended as a starting point for RX 9070 users. RX 9070 XT, RX 7000 and APUs may behave differently.
 
