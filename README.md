@@ -1,4 +1,4 @@
-# AMDNR RX 9070 Profiles
+﻿# AMDNR RX 9070 Profiles
 
 Community tuning profiles for **AMDNR / OptiScaler** tested on an **AMD Radeon RX 9070**.
 
@@ -55,6 +55,11 @@ Same general test area, scene-dependent:
 
 In our test setup, frame generation felt substantially more responsive than playing at the 44-48 FPS base rate. This is a subjective gameplay observation, not a guarantee of lower measured input latency. Latency and frame pacing depend on the game, frame-generation implementation, driver, CPU and other settings.
 
+## Visual character of the effect
+
+In some lighting conditions, Neural Rendering can increase local contrast, facial definition and fine texture enough that the result may initially resemble strong sharpening or an aggressive ReShade-style post-process. The effect is not simply a post-process filter, but the visual impression can sometimes be similar.
+
+The result is also **subjective**. Some users may prefer the stronger facial definition and detail produced by NR, while others may prefer the softer and more natural-looking original image. This profile should be treated as a tested balance of image quality and performance, not as an objectively better look for everyone.
 ## Installation
 
 1. Install the current AMDNR release from the original AMDNR repository.
@@ -91,3 +96,4 @@ https://github.com/danielblnc/DLSS-NR-on-AMD
 All upstream code, binaries, runtimes, trademarks and project names remain the property of their respective authors and are governed by their upstream licenses.
 
 This repository only contains tuning configuration and documentation created from testing. It is not an official AMDNR, OptiScaler, AMD, NVIDIA, Ubisoft or Assassin's Creed project.
+
