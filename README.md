@@ -19,6 +19,10 @@ Detailed notes:
 
 `profiles/cyberpunk-2077/README.md`
 
+Final comparison screenshots:
+
+`comparisons/cyberpunk-2077/screenshots/`
+
 ### Assassin's Creed Black Flag Resynced
 
 Tested setup:

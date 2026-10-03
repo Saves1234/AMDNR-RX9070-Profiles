@@ -53,3 +53,15 @@ Use:
 Back up your current config before replacing it.
 
 Fresh comparison screenshots will be added separately after the final capture pass.
+
+## Final comparison screenshots
+
+Final NR OFF / ON pairs are available here:
+
+`../../comparisons/cyberpunk-2077/screenshots/`
+
+Comparison notes:
+
+`../../comparisons/cyberpunk-2077/README.md`
+
+During the final FSR Frame Generation test, the player reported responsive controls with no perceptible extra input lag and no obvious large geometry distortions during movement. These are subjective gameplay observations rather than instrumented latency or artifact measurements.
