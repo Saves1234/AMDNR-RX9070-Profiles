@@ -4,7 +4,20 @@ Community tuning profiles for **AMDNR / OptiScaler** tested on an **AMD Radeon R
 
 This repository does **not** redistribute AMDNR, OptiScaler, lmxxf runtime files, DLLs, PAK files, or any other upstream binaries. Install AMDNR from the original project first, then apply only the profile from this repository.
 
-## Current tested profile
+## Current tested profiles
+
+
+### Cyberpunk 2077
+
+Tested on RX 9070 at 2560x1440 with RT Ultra, Path Tracing off. Current profile uses AMDNR 0.3.5.1 + lmxxf 0.39, pixel-exact 1706x960 neural input, Style 1, Full Network, Interleave 1.4 and Edit Detail 1.06. FSR Frame Generation is routed through OptiScaler in Borderless Windowed mode.
+
+Profile path:
+
+`profiles/cyberpunk-2077/OptiScaler.ini`
+
+Detailed notes:
+
+`profiles/cyberpunk-2077/README.md`
 
 ### Assassin's Creed Black Flag Resynced
 
