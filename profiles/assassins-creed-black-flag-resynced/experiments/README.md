@@ -54,3 +54,15 @@ The visual goal was not simply maximum sharpness. The final tuning tried to keep
 The visual result is subjective. Some viewers may prefer stronger facial definition and local contrast; others may prefer the softer original presentation.
 
 These snapshots are published so the tuning path can be reproduced and compared, not to claim one universal "best" look.
+
+## 0.3.5.1 / lmxxf 0.39 retest
+
+- `15_lmxxf039_everyframe_fast900_edit106_0351.ini` — current clean-system gameplay profile after migrating to AMDNR 0.3.5.1 + lmxxf 0.39.
+- Model Interleave is OFF: the neural model runs every base frame.
+- Fast Mode is ON, which moves the network from the exact ~1712x960 input to the ~900 tier (about 1600x897 here), with detail lift back to the frame.
+- Full Network is OFF; Style 1 and EditDetail 1.06 are retained.
+- Native in-game AMD FSR Frame Generation 2x is used; OptiScaler frame generation remains off.
+- In the tested scene this configuration was around ~80 displayed FPS with FG, while the heavier exact-960 Full Network every-frame profile was around ~60.
+- An earlier apparent VRAM/performance collapse was invalidated after finding a headless Cyberpunk 2077 process still holding several GB of GPU memory in the background. Retests after terminating it are the reference.
+
+The root `../OptiScaler.ini` now matches profile 15.
